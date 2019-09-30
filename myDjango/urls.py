@@ -23,4 +23,5 @@ urlpatterns = [
     #即浏览器地址栏中以welcome结尾时调用welcome函数
     path('welcome/',app_views.welcome),
     path('admin/', admin.site.urls),
+    path('index/',app_views.index),
 ]

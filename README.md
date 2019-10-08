@@ -1,2 +1,2 @@
 # myDjango
-python3+django2.2.5
+python3.7.4+django2.2.5

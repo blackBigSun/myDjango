@@ -11,4 +11,6 @@ def welcome(request):
     return HttpResponse('hello django!')
 
 def index(request):
-    return render(request, 'index.html')
+    context          = {}
+    context['hello'] = 'Hello World!'
+    return render(request, 'index.html', context)
